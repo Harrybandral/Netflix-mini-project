@@ -17,7 +17,7 @@ body {
   height: 100vh;
   background-image: linear-gradient(
       to top,
-      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0.8) 0%,
       rgba(0, 0, 0, 0) 60%,
       rgba(0, 0, 0, 0.8) 100%
     ),
@@ -49,7 +49,7 @@ nav button {
   padding: 7px 20px;
   font-size: 14px;
   border-radius: 4px;
-  margin-left: 20px;
+  /* margin-left: 10px; */
   cursor: pointer;
 }
 
@@ -71,7 +71,7 @@ nav button {
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 .header-content h1 {
@@ -81,47 +81,29 @@ nav button {
   margin-block-end: 0.67em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  font-weight: 700;
-  color: #ffffff;
+  font-weight: 670;
+  color: rgba(245, 245, 245, 0.932);
+  -webkit-text-stroke: 3px, #303030;
 }
 
 h1 {
-  /* letter-spacing: 0 !important; */
+  letter-spacing: 0 !important;
   position: relative;
-  margin-left: 100px;
+  /* margin-left: 100px; */
 }
 
 .header-content h3 {
-  font-weight: 400;
+  font-weight: 480px;
   margin-bottom: 20px;
+  color: white;
+  -webkit-text-stroke: 3px, #303030;
 }
 
 .header-content p {
-  font-size: 18px;
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 3px, #303030;
 }
-
-/* .input-email {
-  width: 50%;
-  height: 50px;
-  background-color: rgba(16, 16, 16, 0.541);
-  font-weight: 600;
-  border: 1px solid rgba(255, 255, 255, 0.647);
-}
-
-.input-email:focus {
-  outline-offset: 1px;
-  outline: 2px solid #ffffffd8;
-}
-
-.input-button {
-  width: 36%;
-  height: 50px;
-  font-size: 1.4rem;
-  font-weight: bold;
-  color: #fff;
-  background-color: rgb(237, 8, 8);
-  border: none;
-} */
 
 /* --------------------------------features------------------------------- */
 
@@ -289,3 +271,51 @@ li input[type="radio"] {
 }
 
 /* --------------------Media-Queries-------------- */
+
+@media (min-width: 1281px) {
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+}
