@@ -111,6 +111,7 @@ h1 {
   padding: 50px 12%;
   font-size: 22px;
   border-bottom: 8px solid #333;
+  background-color: black;
 }
 
 .row {
@@ -160,7 +161,7 @@ h1 {
 }
 
 .accordion {
-  margin: 30px auto;
+  margin: 25px auto;
   max-width: 1000px;
 }
 
@@ -178,7 +179,7 @@ h1 {
   font-family: inherit;
   font-weight: 500;
   background: #303030;
-  margin-bottom: 2px;
+  /* margin-bottom: 2px; */
   cursor: pointer;
   position: relative;
 }
@@ -216,11 +217,6 @@ li input[type="radio"] {
 .faq small {
   font-size: 20px;
 }
-
-/* .faq .email-signup {
-  max-width: 600px;
-  margin: 20px auto 60px;
-} */
 
 /* ----------------------footer-------------------- */
 
@@ -308,7 +304,6 @@ li input[type="radio"] {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  /* CSS */
 }
 
 /* 
