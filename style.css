@@ -322,4 +322,22 @@ li input[type="radio"] {
   .buttons {
     display: flex;
   }
+
+  nav > img {
+    width: 20px;
+    height: 30px;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-col {
+    flex-basis: auto;
+  }
+  .img-col {
+    flex-basis: auto;
+  }
 }
