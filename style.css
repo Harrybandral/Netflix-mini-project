@@ -144,6 +144,45 @@ h1 {
   margin-bottom: 20px;
 }
 
+/* -------------------for two features--------------------- */
+
+.features-1 {
+  padding: 50px 12%;
+  font-size: 22px;
+  border-bottom: 8px solid #333;
+  background-color: black;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+.text-col-1 {
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+
+.img-col-1 {
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+
+.img-col-1 img {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.features-1 h2 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
 /* ---------------------FAQ------------------ */
 
 .faq {
@@ -285,8 +324,13 @@ li input[type="radio"] {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  /* CSS */
+@media (min-width: 761px) and (max-width: 1024px) {
+  .features {
+    padding: 50px;
+  }
+  .features-1 {
+    padding: 50px;
+  }
 }
 
 /* 
@@ -314,6 +358,65 @@ li input[type="radio"] {
   }
 }
 
+@media (min-width: 575px) and (max-width: 767px) {
+  .img-col-1 {
+    flex-basis: auto;
+  }
+
+  .img-col {
+    flex-basis: auto;
+  }
+
+  .text-col-1 {
+    flex-basis: auto;
+  }
+
+  .text-col {
+    flex-basis: auto;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 574px) {
+  .img-col {
+    flex-basis: auto;
+  }
+
+  .img-col-1 {
+    flex-basis: auto;
+  }
+
+  .text-col {
+    flex-basis: auto;
+  }
+
+  .text-col-1 {
+    flex-basis: auto;
+  }
+
+  .features {
+    padding: 50px;
+  }
+
+  .features-1 {
+    padding: 50px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 504px) {
+  .features {
+    padding: 50px;
+  }
+
+  .features-1 {
+    padding: 50px;
+  }
+
+  .header-content h1 {
+    margin-block-end: auto;
+    margin-inline-start: auto;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 450px) {
   nav {
     margin: 20px;
@@ -337,7 +440,19 @@ li input[type="radio"] {
   .text-col {
     flex-basis: auto;
   }
+
+  .text-col-1 {
+    flex-basis: auto;
+  }
+
+  .text-col-1 {
+  }
+
   .img-col {
+    flex-basis: auto;
+  }
+
+  .img-col-1 {
     flex-basis: auto;
   }
 }
